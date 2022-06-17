@@ -1,0 +1,229 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+
+    /* txt-colors */
+    --main-txt-color:#212121;
+    --acent-txt-color:#2196F3;
+    --secondary-txt-color:#757575;
+    --black-txt-color: #000000;
+    --white-txt-color: #ffffff;
+    --transparent-txt-color: rgba(255, 255, 255, 0.6);
+
+    /* bg-colors */
+    --white-bg-color:#FFFFFF;
+    --dark-bg-color:#2F303A;
+    --secondary-bg-color: #F5F4FA;
+    
+    /* others */
+    --hero-btn-hover-color: #188CE8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-txt-color);
+    background-color: var(--white-bg-color); 
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    font-family:inherit;
+}
+
+/* Header */
+.header-logo,
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.8;
+    color: var(--acent-txt-color);
+}
+
+.header-logo-acent {
+    color: #000000;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--main-txt-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--acent-txt-color);
+}   
+
+.header-list .current {
+    color: var(--acent-txt-color);
+}
+
+.header-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--secondary-txt-color);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--acent-txt-color);
+}
+
+/* Hero section */
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-txt-color);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--white-txt-color);
+    background-color: var(--acent-txt-color);
+    border-radius: 4px;
+    border: 0px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hero-btn-hover-color);
+    cursor: pointer;
+}
+
+/* Features section */
+.features-section-title {
+    visibility: hidden;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-txt-color);
+}
+
+/* About sections */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Team sections */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-list-item {
+    background-color: var(--white-bg-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--secondary-txt-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--dark-bg-color);
+}
+
+.footer-logo-acent {
+    color: var(--white-txt-color);
+}
+
+.footer-address {
+    font-style: inherit;
+}
+
+.footer-list-item {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.address-link {
+    color: var(--white-txt-color);
+}
+
+.footer-contact {
+    color: var(--transparent-txt-color);
+}
+
+.address-link:hover,
+.address-link:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--acent-txt-color);
+}
+  
+/* Portfolio sections */
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white-txt-color);
+    background-color: var(--acent-txt-color);
+    cursor: pointer;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--secondary-txt-color);
+}
+
+.portfolio > .portfolio-title {
+    visibility: hidden;
+}
