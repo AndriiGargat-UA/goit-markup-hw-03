@@ -181,7 +181,10 @@ body {
 }
 
 .main-title {
+    width: 696px;
     padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-weight: 900;
     font-size: 44px;
