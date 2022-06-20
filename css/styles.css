@@ -41,6 +41,17 @@ img {
     height: auto;
 }
 
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
     /* Сітка flex-box */
     .card-set {
         display: flex;
@@ -75,16 +86,6 @@ body {
     padding-bottom: 94px;
 }
 
-.list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.link {
-    text-decoration: none;
-    color: inherit;
-}
 
 .btn {
     font-family:inherit;
@@ -268,7 +269,7 @@ body {
 }
 
 .section-title {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
@@ -278,8 +279,6 @@ body {
 
 /* Team sections */
 .team {
-    padding-bottom: 79px;
-
     background-color: var(--secondary-bg-color);
 }
 
@@ -361,7 +360,7 @@ body {
 .portfolio-btns-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .btn-list-item:not(:last-child) {
@@ -408,9 +407,6 @@ body {
     color: var(--secondary-txt-color);
 }
 
-.portfolio {
-    padding-bottom: 79px;
-}
 
 
 
@@ -418,6 +414,3 @@ body {
 
 
 
-.container {
-    outline: 1px solid tomato;
-}
