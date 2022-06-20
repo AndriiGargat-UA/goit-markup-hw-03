@@ -111,7 +111,6 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--border-color);
 }
 
 .header-nav {
@@ -173,6 +172,10 @@ body {
     color: var(--acent-txt-color);
 }
 
+.header {
+    border-bottom: 1px solid var(--border-color);
+}
+
 /* Hero section */
 .hero {
     background-color: var(--dark-bg-color);
@@ -182,7 +185,7 @@ body {
 
 .main-title {
     width: 696px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 
@@ -204,6 +207,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.06em;
     color: var(--white-txt-color);
     background-color: var(--acent-txt-color);
     border-radius: 4px;
@@ -293,7 +297,7 @@ body {
 }
 
 .team-title {
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 
     font-weight: 500;
     font-size: 16px;
@@ -334,6 +338,10 @@ body {
     line-height: 1.7;
 }
 
+.footer-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .address-link {
     color: var(--white-txt-color);
 }
@@ -348,7 +356,6 @@ body {
 .footer-contact:focus {
     color: var(--acent-txt-color);
 }
-  
 
 /* Portfolio sections */
 .portfolio-btns-list {
@@ -383,6 +390,8 @@ body {
 .card-text {
     padding: 20px 24px;
     border-bottom: 1px solid var(--secondary-border-color);
+    border-left: 1px solid var(--secondary-border-color);
+    border-right: 1px solid var(--secondary-border-color);
 }
 
 .portfolio-title {
@@ -401,4 +410,14 @@ body {
 
 .portfolio {
     padding-bottom: 79px;
+}
+
+
+
+
+
+
+
+.container {
+    outline: 1px solid tomato;
 }
