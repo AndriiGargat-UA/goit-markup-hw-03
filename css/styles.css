@@ -71,6 +71,7 @@ img {
 
 body {
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
     color: var(--main-txt-color);
     background-color: var(--white-bg-color); 
 }
@@ -179,6 +180,10 @@ body {
     border-bottom: 1px solid var(--border-color);
 }
 
+.header li {
+    letter-spacing: 0.02em;
+}
+
 /* Hero section */
 .hero {
     background-color: var(--dark-bg-color);
@@ -261,7 +266,6 @@ body {
 .features-text {
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--secondary-txt-color);
 }
 
@@ -376,6 +380,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     text-align: center;
     border: 0px;
     border-radius: 4px;
@@ -401,6 +406,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
